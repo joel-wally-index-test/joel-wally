@@ -36,4 +36,5 @@ steps:
 timeout: 900s
 options:
   machineType: "E2_HIGHCPU_8"
-  logging: "NONE"
+
+logsBucket: "gs://joel-wally-registry-trigger-logs"
